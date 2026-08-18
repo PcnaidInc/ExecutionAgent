@@ -140,7 +140,7 @@ pydantic==1.10.15
 pyflakes==3.2.0
 Pygments==2.18.0
 pylatexenc==2.10
-pymdown-extensions==10.8.1
+pymdown-extensions==11.0.1
 pyOpenSSL==24.1.0
 pyparsing==3.1.2
 PyPDF2==3.0.1
