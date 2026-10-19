@@ -78,6 +78,10 @@ To clean all the logs and unset the api token, you can use the following command
 
 ---
 
+## CI
+
+A GitHub Actions workflow (`.github/workflows/ci.yml`) runs on every push and pull request to `main`. It checks **lint** (black, isort, flake8) and **type checking** (mypy on `autogpt/`). Superseded runs are automatically cancelled.
+
 ## 🔧 Configuration 
 
 **More options on configuring the agent would be coming soon**
